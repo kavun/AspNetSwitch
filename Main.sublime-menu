@@ -9,8 +9,8 @@
                 [
                     {
                         "caption": ".aspx",
-                        "command": "switch_aspx_cs",
-                        "context": [{"key": "selector", "operator": "equal", "operand": "source.cs"}]
+                        "command": "switch_aspx_vb",
+                        "context": [{"key": "selector", "operator": "equal", "operand": "source.vb"}]
                     },
                     {
                         "caption": ".aspx.cs",
