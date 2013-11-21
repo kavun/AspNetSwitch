@@ -13,13 +13,13 @@
                         "context": [{"key": "selector", "operator": "equal", "operand": "source.vb"}]
                     },
                     {
-                        "caption": ".aspx.cs",
-                        "command": "switch_aspx_cs",
+                        "caption": ".aspx.vb",
+                        "command": "switch_aspx_vb",
                         "context": [{"key": "selector", "operator": "equal", "operand": "source.aspx"}]
                     },
                     {
-                        "caption": ".aspx.designer.cs",
-                        "command": "switch_aspx_designer_cs",
+                        "caption": ".aspx.designer.vb",
+                        "command": "switch_aspx_designer_vb",
                         "context": [{"key": "selector", "operator": "equal", "operand": "source.aspx"}]
                     }
                 ]
