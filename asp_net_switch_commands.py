@@ -1,7 +1,7 @@
 import sublime, sublime_plugin
 import os.path
 
-class SwitchAspxCsCommand(sublime_plugin.TextCommand):
+class SwitchAspxVbCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         name, real_ext = os.path.splitext(self.view.file_name())
         win = self.view.window()
@@ -19,7 +19,7 @@ class SwitchAspxCsCommand(sublime_plugin.TextCommand):
             else: 
                 win.open_file(name)
 
-class SwitchAspxDesignerCsCommand(sublime_plugin.TextCommand):
+class SwitchAspxDesignerVbCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         name, ext = os.path.splitext(self.view.file_name())
         win = self.view.window()
