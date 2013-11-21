@@ -1,17 +1,17 @@
 [
     {
         "keys": ["alt+c"], 
-        "command": "switch_aspx_cs"
+        "command": "switch_aspx_vb"
     },
 
     {
         "keys": ["alt+d"],
-        "command": "switch_aspx_designer_cs"
+        "command": "switch_aspx_designer_vb"
     },
 
     {
         "keys": ["g","c"],
-        "command": "switch_aspx_cs",
+        "command": "switch_aspx_vb",
         "context": [
             {"key": "setting.command_mode"}
         ]
@@ -19,7 +19,7 @@
 
     {
         "keys": ["g","d"],
-        "command": "switch_aspx_designer_cs",
+        "command": "switch_aspx_designer_vb",
         "context": [
             {"key": "setting.command_mode"}
         ]
