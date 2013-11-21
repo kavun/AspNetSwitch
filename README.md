@@ -2,10 +2,10 @@
 AspNetSwitch is a Asp.net file switching plugin for Sublime Text 2.
 
 ## Features
-* switch file between .aspx and .aspx.cs 
-* switch file between .ascx and .ascx.cs 
-* switch file between .master and .master.cs 
-* switch file between .aspx and .aspx.designer.cs 
+* switch file between .aspx and .aspx.vb 
+* switch file between .ascx and .ascx.vb
+* switch file between .master and .master.vb
+* switch file between .aspx and .aspx.designer.vb
 
 ## Install
 #### [Package Control](https://github.com/wbond/sublime_package_control) (*Recommended*)
@@ -24,24 +24,24 @@ Clone this repository in to the Sublime Text 2 "Packages" directory, which is lo
 ## Key Binding
 
 ### normal
-* "alt+c" switch file between .aspx and .aspx.cs 
-* "alt+c" switch file between .master and .master.cs 
-* "alt+c" switch file between .ascx and .ascx.cs 
+* "alt+c" switch file between .aspx and .aspx.vb
+* "alt+c" switch file between .master and .master.vb
+* "alt+c" switch file between .ascx and .ascx.vb
 
-* "alt+d" switch file between .aspx and .aspx.designer.cs 
+* "alt+d" switch file between .aspx and .aspx.designer.vb
 
 ### command mode
-* "gc" switch file between .aspx and .aspx.cs
-* "gc" switch file between .master and .master.cs
-* "gc" switch file between .ascx and .ascx.cs 
+* "gc" switch file between .aspx and .aspx.vb
+* "gc" switch file between .master and .master.vb
+* "gc" switch file between .ascx and .ascx.vb
 
-* "gd" switch file between .aspx and .aspx.designer.cs
+* "gd" switch file between .aspx and .aspx.designer.vb
 
 ## Command Palette
 
 Open the command palette via "ctrl + shift + p", AspNetSwitch appears as 
-"AspNetSwitch: (.aspx .master .ascx)--.cs" 
-"AspNetSwitch: .aspx--.aspx.designer.cs"
+"AspNetSwitch: (.aspx .master .ascx)--.vb" 
+"AspNetSwitch: .aspx--.aspx.designer.vb"
 
 ---
 
